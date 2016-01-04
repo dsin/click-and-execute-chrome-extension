@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Click-and-execute",
+  "version": "1",
+  "author": "Phongsathorn Eakamongul",
+  "description": "Click-and-execute",
+  "icons": {},
+   "browser_action": {
+		"default_title": "Click-and-execute"
+   },
+	"permissions": [
+		"tabs", "http://*/*", "https://*/*"
+	],
+   "web_accessible_resources": ["autologin.user.js"],
+   "background": {
+    "scripts": ["background.js"]
+  }
+}
